@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-//@EnableConfigurationProperties({TutorialConfigBean.class})
+@EnableConfigurationProperties({TutorialConfigBean.class})
 @SpringBootApplication
 public class SpringTutorialApplication {
 

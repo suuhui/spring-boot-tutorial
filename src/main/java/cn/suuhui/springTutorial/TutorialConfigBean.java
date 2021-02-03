@@ -1,9 +1,9 @@
 package cn.suuhui.springTutorial;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.stereotype.Component;
+import org.springframework.context.annotation.Configuration;
 
-@Component
+//@Configuration
 @ConfigurationProperties(prefix = "blog.tutorial")
 public class TutorialConfigBean {
     private String name;
